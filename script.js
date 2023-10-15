@@ -1,6 +1,6 @@
 // https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 
-fetch("https://api.openweathermap.org/data/2.5/weather?lat=28.678238&lon=77.370642&appid=897d3af87f73d61400ef80d403fef902")
+fetch("https://api.openweathermap.org/data/2.5/weather?lat=28.678238&lon=77.370642&appid=#############################")
 .then((response) => {return response.json();})
 .then((data) => {
     console.log(data);
